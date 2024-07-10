@@ -31,7 +31,7 @@ services:
     container_name: "rss2email_rss2email"
     hostname: "rss2email"
     entrypoint: "rss2email"
-    command: "--config /app/.rss2email/config/rss2email --state /app/.rss2email/state/state.db daemon ${TO_EMAIL}"
+    command: "--config /app/.rss2email/config/rss2email --state /app/.rss2email/state/state.db daemon crazybyte+feed@disroot.org"
     restart: "unless-stopped"
     user: "app"
     working_dir: "/app"
