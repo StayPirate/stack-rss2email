@@ -38,8 +38,8 @@ services:
     logging:
       driver: "json-file"
       options: {}
-    env_file:
-      - .env
+    #env_file:
+    #  - .env
     environment:
       - "TZ=Europe/Rome"
     mac_address: de:ad:be:ef:10:09
