@@ -55,9 +55,10 @@ services:
       - "rss2email_config:/app/.rss2email/config:ro"
 
 volumes:
-  rss2email_data:
+  rss2email_state:
     external: true
-  repo-test:
+  rss2email_config:
+    external: true
 
 networks:
   Untrusted:
