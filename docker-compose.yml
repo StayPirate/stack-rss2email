@@ -54,9 +54,7 @@ services:
 
 volumes:
   rss2email_state:
-    external: true
   rss2email_config:
-    external: true
 
 networks:
   Untrusted:
